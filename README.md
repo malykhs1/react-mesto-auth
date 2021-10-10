@@ -1,6 +1,6 @@
 # <p align="center">Mesto обмена фотографиями</p>
 
-<p align="center">Проект <a href="https://malykhs1.github.io/mesto/">приложения</a> для обмена фотокарточками, написанный на React с возможностью регистрации пользователя</p>
+<p align="center">Проект приложения для обмена фотокарточками, написанный на React с возможностью регистрации пользователя</p>
 
 ---
 
@@ -10,7 +10,7 @@
 
 2.Зайти через терминал в папку проекта и ввести: npm install. Произойдёт автоматическая установка зависимостей из файла package.json. 
 
-3.После этого будут доступны следующие команды из терминала: npm run dev (запустить проект локально в браузере по умолчанию), npm run build (соберёт проект в папке dist).
+3.После этого будут доступны следующие команды из терминала: npm run start (запустить проект локально в браузере по умолчанию), npm run build (соберёт проект в папке dist).
  ### ⚙️  Стек технологий:
 React: { useState, useEffect, useRef, createContext, useContext }, { Route, Switch, Redirect, useHistory, HashRouter }, api, fetch, authentification.  
 <img src="https://img.icons8.com/officel/36/000000/react.png"/>

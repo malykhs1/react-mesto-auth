@@ -1,8 +1,8 @@
 import React from "react";
 import PopupWithForm from "./PopupWithForm";
 function AddPlacePopup({ isOpened, onClose, onAddCard }) {
-   const nameRef = React.useRef(); // записываем объект, возвращаемый хуком, в переменную
-   const linkRef = React.useRef(); // записываем объект, возвращаемый хуком, в переменную
+   const nameRef = React.useRef(); 
+   const linkRef = React.useRef(); 
 
    function handleSubmit(e) {
       e.preventDefault();

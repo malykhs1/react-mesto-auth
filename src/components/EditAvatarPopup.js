@@ -1,7 +1,7 @@
 import PopupWithForm from "./PopupWithForm";
 import React from "react";
 const EditAvatarPopup = ({ isOpened, onClose, onUpdateAvatar }) => {
-  const avatarRef = React.useRef(); // записываем объект, возвращаемый хуком, в переменную
+  const avatarRef = React.useRef(); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
